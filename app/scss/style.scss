@@ -335,6 +335,16 @@
   &__items {
     max-width: 757px;
     padding-bottom: 15px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 319px;
+      height: 125px;
+      bottom: 20px;
+      right: -319px;
+      background-image: url("../images/questions-bg.png");
+    }
   }
   &__item {
     background-color: rgba(0, 0, 0, 0.3);
