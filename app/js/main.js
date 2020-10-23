@@ -18,8 +18,9 @@ $(function () {
         autoScrolling: true,
         scrollHorizontally: true,
         sectionSelector: '.page-section',
-        menu: 'header',
         scrollOverflow: true,
+        menu: 'header',
+        anchors: ['top', 'products', 'benefits', 'specification', 'questions', 'contacts'],
     });
 
 
