@@ -19,6 +19,7 @@ $(function () {
         scrollHorizontally: true,
         sectionSelector: '.page-section',
         menu: 'header',
+        scrollOverflow: true,
     });
 
 
